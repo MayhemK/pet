@@ -1,13 +1,52 @@
 body {
   background-color: palegoldenrod;
   margin: 0px;
+  height: 100dvh;
+  flex-direction: column;
+}
+
+header,
+main {
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
+header {
+  margin-bottom: 1rem;
+  border-bottom: 4px solid black;
+  padding: 20px
+}
+
+main {
+  margin: 5rem;
 }
 
 footer {
   background-color: #040466;
   color: gray;
+  margin-bottom: 1rem;
+  border-bottom: 4px solid black;
+  padding: 20px
+}
+
+nav {
+  gap: 2rem;
+
+}
+
+.align-items-center {
+  align-items: center;
+}
+
+.justify-content-space {
+  justify-content: space-between;
 }
 
 .display-flex {
   display: flex;
+}
+
+.justify-content-evenly {
+  justify-content: space-evenly;
+
 }
