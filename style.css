@@ -7,3 +7,7 @@ footer {
   background-color: #040466;
   color: gray;
 }
+
+.display-flex {
+  display: flex;
+}
